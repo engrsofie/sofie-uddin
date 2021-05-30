@@ -40,7 +40,7 @@ const Profile = () => {
         <h5> <FaPhoneSquareAlt/> +88 01926385012</h5>
         <h5> <FaMailBulk/> engrsofie@gmail.com </h5>
         <h5><FaLocationArrow/> Dhaka, BD</h5>
-            <h1 className='p-3'><FaLinkedin/>  <FaFacebook/> <FaGithub/></h1>
+            <h1 className='p-3'><a href="www.linkedin.com/in/engrsofie" target="_blank"> <FaLinkedin/></a> <a href="https://www.facebook.com/sohel724/" target="_blank"> <FaFacebook/></a> <a href="https://github.com/engrsofie" target="_blank"> <FaGithub/></a></h1>
       </div>
     </div>
   );
