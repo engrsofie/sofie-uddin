@@ -19,9 +19,10 @@ const About = () => {
             a Full-Stack software engineer is my goal. I'm a simply simple
             person with lots of interests.
           </p>
-          <button className="btn-btn btn-primary"> HIRE ME </button>
-          <br /> <br />
-          <button className="btn-btn btn-primary"> HIRE ME </button>
+          <br />
+          <a href="https://drive.google.com/u/0/uc?id=1S_ZUkpyUSY8ooY6mmhq-1BVSBbidjkLB&export=download" target="_blank"> <button class=" ms-4 btn btn-primary btn-lg disabled"> RESUME </button> </a>
+        <a href="https://drive.google.com/u/0/uc?id=1S_ZUkpyUSY8ooY6mmhq-1BVSBbidjkLB&export=download" target="_blank"> <button class=" ms-4 btn btn-primary btn-lg disabled"> HIRE ME </button> </a>
+        <a href="https://drive.google.com/u/0/uc?id=1S_ZUkpyUSY8ooY6mmhq-1BVSBbidjkLB&export=download" target="_blank"> <button class=" ms-4 btn btn-primary btn-lg disabled"> Google </button> </a>
         </div>
         </div>
 
@@ -49,4 +50,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default About; 

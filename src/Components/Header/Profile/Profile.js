@@ -3,6 +3,7 @@ import image from '../../../images/sofie.jpg'
 import './Profile.css'
 import Aos from "aos";
 import Typewriter from 'typewriter-effect'
+import { FaLinkedin, FaFacebook, FaGithub, FaLocationArrow, FaMailBulk, FaPhoneSquareAlt } from 'react-icons/fa';
 
 const Profile = () => {
   useEffect(() =>{
@@ -18,28 +19,28 @@ const Profile = () => {
       </div>
       <div data-aos="zoom-in" className="col-md-6">
         <small>HELLO EVERYBODY, I AM</small>
+       <h1>MD Sofie Uddin Sohel</h1>
         <div className="text">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("MD Sofie Uddin Sohel")
+                .typeString("I'M WEB STACK DEVELOPER")
                 .pauseFor(2000)
                 .deleteAll()
-                .typeString("MD Sofie Uddin Sohel")
+                .typeString("I'M JS Lover ❣️")
                 .start();
             }}
           />
         </div>
-        <h5>I'M A MERN STACK DEVELOPER</h5>
         <p>
           Currently, I'm working In a Software Company Named Quixx Project. I'm
           a M E R N stack Developer. 40+ Project Completed and have well
           knowledged in React, Next Js,React Native, MongoDB, Express Js.
         </p>
-        <h6>Phone logo (+880 1926385012)</h6>
-        <h6>email logo (engrsofie@gmail.com)</h6>
-        <h6>Location logo (Dhaka, BD)</h6>
-        (logo linked in), (logo FB), (logo Github)
+        <h5> <FaPhoneSquareAlt/> +88 01926385012</h5>
+        <h5> <FaMailBulk/> engrsofie@gmail.com </h5>
+        <h5><FaLocationArrow/> Dhaka, BD</h5>
+            <h1 className='p-3'><FaLinkedin/>  <FaFacebook/> <FaGithub/></h1>
       </div>
     </div>
   );

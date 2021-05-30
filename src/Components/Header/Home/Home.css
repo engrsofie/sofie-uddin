@@ -1,0 +1,14 @@
+.nav-style{
+    font-weight: 700;
+}
+.nav-resume{
+    color:antiquewhite;
+    font-weight: 700;
+    background-color:rgb(201, 122, 48);
+    border-radius: 15px ;
+}
+.nav img{
+    height: 50px;
+    border-radius: 15px ;
+    float: right;
+}
