@@ -11,9 +11,9 @@ const Projects = () => {
     <div id="projects">
       <div className="text-center">
         <h1> MY LATEST FEATURED PROJECT </h1>
-        <h6> Lorem ipsum dolor sit amet consectetur adipisicing elit. </h6>
+        <h6 className="mt-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </h6>
       </div>
-      <div className="row card-size">
+      <div className="row card-size mt-5">
         <div className="col-md-4 ">
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={project1}/>

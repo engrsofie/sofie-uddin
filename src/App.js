@@ -11,6 +11,9 @@ import firebaseConfig from '../src/firebaseConfig'
 import firebase from "firebase/app";
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
+// import ParticleBackground from './Components/ParticleBackground';
+// import Particles from 'react-particles-js';
+import SendEmail from './Components/SendEmail/SendEmail';
 
 
 function App() {
@@ -18,14 +21,39 @@ function App() {
     firebase.initializeApp(firebaseConfig);
    }
   return (
+    
+
       <div className="container">
+       
+        {/* <Particles params={{
+	    "particles": {
+	        "number": {
+	            "value": 50
+	        },
+	        "size": {
+	            "value": 3
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}} /> */}
+        {/* <ParticleBackground/> */}
         <Home></Home>
         <Profile></Profile>
         <About></About>
         <Projects></Projects>
         <Contact></Contact>
+        <SendEmail></SendEmail>
         <Footer></Footer>
+        
     </div>
+    
   );
 }
 

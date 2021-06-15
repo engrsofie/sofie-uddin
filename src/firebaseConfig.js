@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBFQY7-faW5LU29zatq_2arobuF9wIi--U",
-  authDomain: "sofie-uddin.firebaseapp.com",
-  projectId: "sofie-uddin",
-  storageBucket: "sofie-uddin.appspot.com",
-  messagingSenderId: "398850521092",
-  appId: "1:398850521092:web:8e5566b24a052b77251d51",
+  apiKey: "AIzaSyADI0wzPFRH42dsW3E2vqe-aaYLe-ZawH4",
+  authDomain: "engr-sofie.firebaseapp.com",
+  projectId: "engr-sofie",
+  storageBucket: "engr-sofie.appspot.com",
+  messagingSenderId: "692435926761",
+  appId: "1:692435926761:web:2a8020943516220fa47a78"
 };
 export default firebaseConfig;
