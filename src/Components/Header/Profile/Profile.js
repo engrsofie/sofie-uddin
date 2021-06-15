@@ -33,8 +33,7 @@ const Profile = () => {
           />
         </div>
         <p>
-          Currently, I'm working In a Software Company Named Quixx Project. I'm
-          a M E R N stack Developer. 40+ Project Completed and have well
+          I'm a M E R N stack Developer. 40+ Project Completed and have well
           knowledged in React, Next Js,React Native, MongoDB, Express Js.
         </p>
         <h5> <FaPhoneSquareAlt/> +88 01926385012</h5>

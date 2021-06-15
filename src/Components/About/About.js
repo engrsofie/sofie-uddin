@@ -11,9 +11,8 @@ const About = () => {
       <div className="mt-5 row">
         <div className="col-md-6">
           <div data-aos="fade-right">
-          <h1>ABOUT MYSELF</h1>
-          <p>
-            I'm a Javascript Enthusiast. Love to working in Javascript Ecosystem
+          <h1> <span className="text-warning">ABOUT</span> MYSELF</h1>
+          <p>I'm a Javascript Enthusiast. Love to working in Javascript Ecosystem
             speacially React, Next Js, React Native. I'm a technology explorer
             and learner. I love to learn new technology and explore it. Becoming
             a Full-Stack software engineer is my goal. I'm a simply simple

@@ -5,7 +5,10 @@ import { FaPhoneAlt, FaMailBulk, FaLocationArrow } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="row">
+    <div id="contact">
+      
+   
+    <div className="row ">
       <div className="col-md-4">
         <Card className="text-center m-3">
           <Card.Body className="logo-design mt-">
@@ -41,6 +44,7 @@ const Contact = () => {
           </Card.Body>
         </Card>
       </div>
+    </div>
     </div>
   );
 };

@@ -4,3 +4,9 @@
 .card-size Button{
     margin: 5px;
 }
+.ex1 {
+    overflow: scroll;
+    
+    width: 340px;
+    height: 120px;
+  }

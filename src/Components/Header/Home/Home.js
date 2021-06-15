@@ -19,7 +19,7 @@ const Home = () => {
           </Nav.Item>
 
           <Nav.Item className='nav-style'>
-            <Nav.Link eventKey="link-2">Contact</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav.Item>
 
           <Nav.Item className='nav-style'>
